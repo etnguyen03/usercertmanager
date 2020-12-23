@@ -116,3 +116,4 @@ GitHub.sublime-settings
 .history
 
 .idea
+usercertmanager/settings/secret.py
