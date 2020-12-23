@@ -6,6 +6,12 @@ name = "pypi"
 [packages]
 django = "*"
 channels = "*"
+social-auth-app-django = "*"
+social-auth-core = {extras = ["openidconnect"], version = "*"}
+django-extensions = "*"
+whitenoise = "*"
+ipython = "*"
+daphne = "*"
 
 [dev-packages]
 black = "==20.8b1"

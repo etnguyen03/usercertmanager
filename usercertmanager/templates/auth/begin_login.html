@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm d-flex justify-content-center">
+                <p>Click or touch the button below to log in.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm d-flex justify-content-center">
+                <p><a class="btn btn-primary" href="{% url "social:begin" "oidc" %}" role="button">Log in</a></p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
