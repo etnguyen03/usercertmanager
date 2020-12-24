@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "django_extensions",
     # usercertmanager
     "usercertmanager.apps.users",
+    "usercertmanager.apps.certs",
 ]
 
 MIDDLEWARE = [
